@@ -3,6 +3,9 @@ module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx,css,scss}'],
   // darkMode: 'media', // or 'media' or 'class'
   theme: {
+    fontFamily: {
+      sans: ['Lexend', 'sans-serif'],
+    },
     extend: {
       colors: {
         sky: '#3b82f6',

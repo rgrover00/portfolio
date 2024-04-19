@@ -66,7 +66,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        <strong className="text-stone-100">Stay-at-Home Dad Developer</strong>, actively seeking 
+        an <strong className="text-stone-100">Tech Enthusiast</strong>, actively seeking 
         <strong className="text-stone-100">  new projects and work opportunities</strong>
       </p> 
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -100,10 +100,10 @@ export const aboutData: About = {
   aboutItems: [
     {label: 'Location', text: 'TX | SC', Icon: MapIcon},
     {label: 'Age', text: '36', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Indonesian / Italian / Irish / British', Icon: FlagIcon},
+    {label: 'Employment', text: 'Open to work opportunities', Icon: BuildingOffice2Icon},
     {label: 'Interests', text: 'Family, Development, Gym', Icon: SparklesIcon},
     {label: 'Study', text: 'CIT Networking, Google Workspace Admin, AWS Certified Cloud Practitioner', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Solidx', Icon: BuildingOffice2Icon},
+    {label: 'Nationality', text: '50% Indo / 20% Italian / 20% French & German / 10% British & Irish', Icon: FlagIcon},
   ],
 };
 
@@ -115,15 +115,15 @@ export const skills: SkillGroup[] = [
     name: 'Frontend development',
     skills: [
       {
-        name: 'React',
+        name: 'HTML | CSS | Javascript',
         level: 6,
       },
       {
-        name: 'Typescript',
+        name: 'Nextjs | Frameworks | Libraries',
         level: 5,
       },
       {
-        name: 'HTML',
+        name: 'Web Design | Responsive Design',
         level: 7,
       },
     ],
@@ -132,16 +132,16 @@ export const skills: SkillGroup[] = [
     name: 'Backend development',
     skills: [
       {
-        name: 'Node.js',
-        level: 6,
-      },
-      {
-        name: 'Python',
+        name: 'Object-oriented (OOP)',
         level: 4,
       },
       {
-        name: 'Express',
-        level: 4,
+        name: 'Functional Programming',
+        level: 3,
+      },
+      {
+        name: 'Back-End Frameworks',
+        level: 5,
       },
     ],
   },
@@ -150,7 +150,7 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Luck',
-        level: 1,
+        level: 2,
       },
       {
         name: 'Believe',
@@ -167,7 +167,7 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Luck',
-        level: 7,
+        level: 4,
       },
       {
         name: 'Believe',
