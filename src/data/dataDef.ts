@@ -89,7 +89,8 @@ export interface PortfolioItem {
 export interface TimelineItem {
   date: string;
   location: string;
-  title: string;
+  title: string, 
+  image: string | StaticImageData;
   content: JSX.Element;
 }
 export interface TimelineItemCompany {
@@ -107,9 +108,9 @@ export interface TestimonialSection {
 }
 
 export interface Testimonial {
-  image?: string;
   name: string;
   text: string;
+  image: string;
 }
 
 /**
@@ -130,6 +131,7 @@ export const ContactType = {
   Facebook: 'Facebook',
   Twitter: 'Twitter',
   Instagram: 'Instagram',
+  Calendar: 'Calendar',
 } as const;
 
 export type ContactType = (typeof ContactType)[keyof typeof ContactType];

@@ -13,9 +13,11 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
+import AWS from '../images/portfolio/aws-ccp.png';
+import GCP from '../images/portfolio/gcp-pgwa.png';
+import porfolioImage1 from '../images/portfolio/portfolio-1.png';
+import porfolioImage2 from '../images/portfolio/Portfolio-2.png';
+import porfolioImage3 from '../images/portfolio/Portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
@@ -37,7 +39,7 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'A website about Ronnie Grover',
+  title: 'Ronnie Grover ',
   description: "look for what you cant see",
 };
 
@@ -101,9 +103,9 @@ export const aboutData: About = {
     {label: 'Location', text: 'TX | SC', Icon: MapIcon},
     {label: 'Age', text: '36', Icon: CalendarIcon},
     {label: 'Employment', text: 'Open to work opportunities', Icon: BuildingOffice2Icon},
-    {label: 'Interests', text: 'Family, Development, Gym', Icon: SparklesIcon},
+    {label: 'Interests', text: 'Family, Web Development, Working Out', Icon: SparklesIcon},
     {label: 'Study', text: 'CIT Networking, Google Workspace Admin, AWS Certified Cloud Practitioner', Icon: AcademicCapIcon},
-    {label: 'Nationality', text: '50% Indo / 20% Italian / 20% French & German / 10% British & Irish', Icon: FlagIcon},
+    {label: 'Nationality', text: '50% Indonesian / 20% Italian / 20% French & German / 10% British & Irish', Icon: FlagIcon},
   ],
 };
 
@@ -112,7 +114,7 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Frontend development',
+    name: 'Frontend Development',
     skills: [
       {
         name: 'HTML | CSS | Javascript',
@@ -129,7 +131,7 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Backend development',
+    name: 'Backend Development',
     skills: [
       {
         name: 'Object-oriented (OOP)',
@@ -146,7 +148,7 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Dad developer',
+    name: 'Dad Developer',
     skills: [
       {
         name: 'Luck',
@@ -163,7 +165,7 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Super Grover developer',
+    name: 'Super Grover Developer',
     skills: [
       {
         name: 'Luck',
@@ -186,13 +188,13 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Petro Plumbing Mockup',
-    description: 'Plumbing Company Demo',
-    url: 'https://petroplumbing.netlify.app/',
+    title: 'Solidx IT',
+    description: 'Solidx IT Consulting and Web Development',
+    url: 'https://solidxit.com/',
     image: porfolioImage1,
   },
   {
-    title: '2D Grover Adventures',
+    title: 'Grover 2D Adventure',
     description: 'Grover World (WIP)',
     url: 'https://2d-grover.pages.dev/',
     image: porfolioImage2,
@@ -212,25 +214,34 @@ export const portfolioItems: PortfolioItem[] = [
 ];
 
 /**
- * Resume section -- TODO: Standardize resume contact format or offer MDX
+ * export const socialLinks: Social[] = [
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/rgrover00'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/ronniegrover/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/ronniekgrover/'},
+  {label: 'Calendar', Icon: CalendarDaysIcon, href: 'https://cal.com/ronniegrover'},
+];
+
  */
 export const education: TimelineItem[] = [
   {
     date: 'September 2023',
-    location: 'Google Cloud Platform (GCP)',
-    title: 'Professional Google Workspace Administrator',
+    location: 'Google Cloud Platform (GCP)' ,
+    title: 'Professional Google Workspace Administrator', 
+    image: GCP,
     content: <p>Transforms business objectives into tangible Google Workspace configurations, policies, and security practices as they relate to users, content, and integrations. Through their understanding of their organization's infrastructure, Google Workspace Administrators let people work together, communicate, and access data in a secure and efficient manner.</p>,
   },
   {
     date: 'September 2023',
     location: 'Amazon Web Services (AWS)',
-    title: 'AWS Certified Cloud Practitioner',
+    title: 'AWS Certified Cloud Practitioner', 
+    image: AWS,
     content: <p>Technical professional who manages an organization's cloud computing architecture. They design, deploy, and maintain cloud-based solutions, and work with other IT professionals to ensure the cloud environment is secure, available, and operates as expected.</p>,
   },
   {
     date: 'May 2013',
-    location: 'Suny Orange',
+    location: 'Suny Orange (Middletown, NY)',
     title: 'Computer Information Technology - Networking',
+    image: '',
     content: <p>Understanding network components (routers, switches, firewalls), different network types (LAN, WAN, wireless), and network protocols (TCP/IP). How to protect networks from threats, implement security measures, and perform vulnerability assessments. Configuration, troubleshooting, and maintaining networks. Involving hardware and software setup, performance optimization, and user support.</p>,
   },
 ];
@@ -304,13 +315,13 @@ export const testimonial: TestimonialSection = {
  */
 
 export const contact: ContactSection = {
-  headerText: 'Get in touch, or schedule a meeting',
+  headerText: 'Send a message or schedule a meeting',
   description: 'As stay-at-home dad developer I have a deep understanding of the challenges faced by small businesses, entrepreneurs, and individuals, making everything more relatable and better suited to meeting your specific needs.',
   items: [
     {
-      type: ContactType.Email,
-      text: 'rkg@ronniegrover.com',
-      href: 'mailto:rkg@ronniegrover.com',
+      type: ContactType.Calendar,
+      text: 'Schedule a meeting',
+      href: 'https://cal.com/ronniegrover/',
     },
     {
       type: ContactType.Location,
@@ -324,7 +335,7 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Github,
-      text: 'rgrover',
+      text: 'rgrover00',
       href: 'https://github.com/rgrover00',
     },
   ],
