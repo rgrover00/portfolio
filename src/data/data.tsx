@@ -17,8 +17,8 @@ import AWS from '../images/portfolio/aws-ccp.png';
 import GCP from '../images/portfolio/gcp-pgwa.png';
 import porfolioImage1 from '../images/portfolio/portfolio-1.png';
 import porfolioImage2 from '../images/portfolio/portfolio-2.png';
-import porfolioImage3 from '../images/portfolio/Portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
+import porfolioImage3 from '../images/portfolio/portfolio-3.png';
+import porfolioImage4 from '../images/portfolio/portfolio-4.png';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -39,7 +39,7 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'Ronnie Grover ',
+  title: 'Ronnie Grover - Tech Enthusiast and Dad Developer',
   description: "look for what you cant see",
 };
 
@@ -189,26 +189,26 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Solidx IT',
-    description: 'Solidx IT Consulting and Web Development',
+    description: 'Solidx IT and Web Development',
     url: 'https://solidxit.com/',
     image: porfolioImage1,
   },
   {
-    title: 'Grover 2D Adventure',
-    description: 'Grover World (WIP)',
+    title: 'Grover 2D Journey',
+    description: 'Follow Grover along his 2D journey',
     url: 'https://2d-grover.pages.dev/',
     image: porfolioImage2,
   },
   {
     title: 'Cookies for Skylar',
-    description: '(Coming Soon - V2) - Website for my amazing niece Skylar',
+    description: 'Website for my amazing niece Skylar',
     url: 'https://sky.solidxit.com/',
     image: porfolioImage3,
   },
   {
-    title: 'Brianna Rahn',
-    description: 'Social Media Influencer',
-    url: 'https://test.solidxit.com/',
+    title: 'Soul Good',
+    description: 'Cultivate equanimity and live with grace',
+    url: 'https://soulgood.pages.dev/',
     image: porfolioImage4,
   },
 ];
