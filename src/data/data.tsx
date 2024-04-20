@@ -16,7 +16,7 @@ import heroImage from '../images/header-background.webp';
 import AWS from '../images/portfolio/aws-ccp.png';
 import GCP from '../images/portfolio/gcp-pgwa.png';
 import porfolioImage1 from '../images/portfolio/portfolio-1.png';
-import porfolioImage2 from '../images/portfolio/Portfolio-2.png';
+import porfolioImage2 from '../images/portfolio/portfolio-2.png';
 import porfolioImage3 from '../images/portfolio/Portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import profilepic from '../images/profilepic.jpg';
