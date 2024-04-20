@@ -1,11 +1,10 @@
 {
-  "name": "react-resume-template",
-  "short_name": "react-resume-template",
+  "name": "rg-portfolio",
+  "short_name": "rg-portfolio",
   "icons": [
-    {"src": "/icon-192.png", "type": "image/png", "sizes": "192x192"},
-    {"src": "/icon-512.png", "type": "image/png", "sizes": "512x512"}
+    {"src": "/icon-192.png", "type": "image/png", "sizes": "192x192"}
   ],
-  "theme_color": "#515455",
-  "background_color": "#515455",
+  "theme_color": "#404040",
+  "background_color": "#404040",
   "display": "standalone"
 }
