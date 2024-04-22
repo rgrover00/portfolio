@@ -32,10 +32,22 @@ const ContactForm: FC = memo(() => {
   const handleSendMessage = useCallback(
     async (event: React.FormEvent<HTMLFormElement>) => {
       event.preventDefault();
-      /**
-       * This is a good starting point to wire up your form submission logic
-       * */
-      console.log('Data to send: ', data);
+
+      const response = await fetch('https://example.com/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      });
+
+      if (response.ok) {
+        // Handle success
+        console.log('Message sent successfully!');
+      } else {
+        // Handle error
+        console.error('Error sending message:', response.statusText);
+      }
     },
     [data],
   );

@@ -89,10 +89,13 @@ export interface PortfolioItem {
 export interface TimelineItem {
   date: string;
   location: string;
-  title: string, 
-  image: string | StaticImageData;
+  title: string;
+  badge: string;
   content: JSX.Element;
 }
+/**
+ * Timeline section
+ */
 export interface TimelineItemCompany {
   date: string;
   company: string;

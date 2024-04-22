@@ -22,10 +22,10 @@ const Footer: FC = memo(() => (
       <a
         className="-m-1 flex items-center gap-x-1 rounded-md p-2 ring-yellow focus:outline-none focus:ring-2"
         href="https://reactresume.com">
-        <BoltIcon className="h-5 w-5 text-yellow" />
+        <BoltIcon className="h3- w-3 text-yellow" />
         <span>
-          Provided by <span className="text-white">React</span>
-          <span className="italic text-yellow"> Resume</span>
+          Provided by <span className="italic">React</span>
+          <span className="italic"> Resume</span>
         </span>
       </a>
       <span className="text-sm text-neutral-700">© Copyright {currentYear} Ronnie Grover</span>

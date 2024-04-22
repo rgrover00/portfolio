@@ -13,8 +13,6 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
-import AWS from '../images/portfolio/aws-ccp.png';
-import GCP from '../images/portfolio/gcp-pgwa.png';
 import porfolioImage1 from '../images/portfolio/portfolio-1.png';
 import porfolioImage2 from '../images/portfolio/portfolio-2.png';
 import porfolioImage3 from '../images/portfolio/portfolio-3.png';
@@ -34,7 +32,6 @@ import {
   TimelineItem,
   TimelineItemCompany,
 } from './dataDef';
-
 /**
  * Page meta data
  */
@@ -227,21 +224,21 @@ export const education: TimelineItem[] = [
     date: 'September 2023',
     location: 'Google Cloud Platform (GCP)' ,
     title: 'Professional Google Workspace Administrator', 
-    image: GCP,
+    badge: 'GCP',  // Insert the image here
     content: <p>Transforms business objectives into tangible Google Workspace configurations, policies, and security practices as they relate to users, content, and integrations. Through their understanding of their organization's infrastructure, Google Workspace Administrators let people work together, communicate, and access data in a secure and efficient manner.</p>,
   },
   {
     date: 'September 2023',
     location: 'Amazon Web Services (AWS)',
     title: 'AWS Certified Cloud Practitioner', 
-    image: AWS,
+    badge: 'AWS',
     content: <p>Technical professional who manages an organization's cloud computing architecture. They design, deploy, and maintain cloud-based solutions, and work with other IT professionals to ensure the cloud environment is secure, available, and operates as expected.</p>,
   },
   {
     date: 'May 2013',
     location: 'Suny Orange (Middletown, NY)',
     title: 'Computer Information Technology - Networking',
-    image: '',
+    badge: '',
     content: <p>Understanding network components (routers, switches, firewalls), different network types (LAN, WAN, wireless), and network protocols (TCP/IP). How to protect networks from threats, implement security measures, and perform vulnerability assessments. Configuration, troubleshooting, and maintaining networks. Involving hardware and software setup, performance optimization, and user support.</p>,
   },
 ];

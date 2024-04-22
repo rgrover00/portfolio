@@ -13,7 +13,7 @@ const Page: NextPage<PropsWithChildren<HomepageMeta>> = memo(({children, title, 
     <>
       <Head>
         <title>{title}</title>
-        <meta content={description} name="description" />
+        <meta content={description} name="lookforwhatyoucantsee" />
 
         {/* several domains list the same content, make sure google knows we mean this one. */}
         <link href={`https://ronniegrover.com${pathname}`} key="canonical" rel="canonical" />
@@ -29,8 +29,8 @@ const Page: NextPage<PropsWithChildren<HomepageMeta>> = memo(({children, title, 
         <meta content={`https://ronniegrover.com${pathname}`} property="og:url" />
 
         {/* Twitter: https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup */}
-        <meta content={title} name="twitter:title" />
-        <meta content={description} name="twitter:description" />
+        <meta content={title} name="twitter:ronniegrover" />
+        <meta content={description} name="twitter:lookforwhatyoucantsee" />
       </Head>
       {children}
     </>
