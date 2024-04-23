@@ -247,16 +247,13 @@ export const experience: TimelineItemCompany[] = [
   {
     date: 'August 2018 - May 2023',
     company: '11:11 Systems',
-    title: 'IT Manager',
+    title: 'IT Systems Administrator',
     content: (
       <div>
-        • Spearheaded the development and implementation of the IT department for a high-growth cloud-solution provider, ensuring smooth operations of IT infrastructure, computer systems, security measures, communication systems, and devices.<div> <br /></div>
-
-        • Designed and implemented automation workflows utilizing Okta, Jamf, Active Directory, Google Workspace, and other essential business systems to streamline employee lifecycle processes. Increased efficiency and accuracy by automating repetitive IT tasks.<div> <br /></div>
-
-        • Partner across business departments to identify, evaluate, and resolve technical issues related to IT systems and integrations. Develop and implement automation workflows to facilitate user provisioning, deprovisioning, and role based access control.<div> <br /></div>
-
-        • Collaborate with IT leadership and the security team to implement and enforce security measures, compliance requirements, and data protection.
+        • Led the creation and implementation of the IT department for a rapidly growing cloud solution provider. Maintained operational excellence across infrastructure, systems, security, and communications.<div> <br /></div>
+        • Designed and executed automation workflows using Okta, Jamf, Active Directory, Google Workspace, and other tools. Optimized efficiency and accuracy throughout employee lifecycle processes.<div> <br /></div>
+        • Collaborated with cross-functional teams to diagnose, troubleshoot, and resolve complex technical issues related to systems and integrations.<div> <br /></div>
+        • Proactively partnered with IT leadership and security team to enforce security protocols, maintain compliance, and safeguard data integrity.
       </div>
     ),
   },
@@ -266,10 +263,10 @@ export const experience: TimelineItemCompany[] = [
     title: 'Network Engineer',
     content: (
       <div>
-        • Troubleshooted, diagnosed, and resolved critical network outages for government agencies, minimizing downtime and ensuring the continuity of essential services.<div> <br /></div>
-        • Traveled extensively to government sites across New York, performing on-site installation, configuration, and optimization of complex network infrastructure.<div> <br /></div>
-        • Executed network upgrades and migrations for government entities, adhering to strict security protocols and change management procedures.<div> <br /></div>
-        • Provided on-call support for government clients, ensuring rapid response to critical network incidents outside standard business hours.
+        • Maintained mission-critical network infrastructure for government entities, ensuring uninterrupted communication and operational efficiency.<div> <br /></div>
+        • Configured and deployed network devices (routers, switches, firewalls, load balancers) to optimize performance and reliability.<div> <br /></div>
+        • Analyzed business needs and successfully implemented tailored network solutions in collaboration with diverse teams.<div> <br /></div>
+        • Performed network capacity planning, recommending and executing upgrades to support evolving business demands.
       </div>
     ),
   },
@@ -279,10 +276,11 @@ export const experience: TimelineItemCompany[] = [
     title: 'Commercial Tech Ops Support',
     content: (
       <div>
-        • Streamlined technical support processes, reducing average response time by 20% and increasing customer satisfaction by 15%. Utilized foundational web development skills to help coordinate logistical requirements, ensuring timely delivery of materials and reducing operational downtime by 10%.<div> <br /></div>
-        • Conducted thorough hardware inventory of all projects, ensuring accurate tracking and effective allocation to local points of contact, resulting in improved efficiency and streamlined operations.<div> <br /></div>
-        • Utilized technical skills in software testing and analysis to identify and resolve compatibility issues, ensuring smooth operations for end users.<div> <br /></div>
-        • Served as the main point of contact for Tier-1 and Tier-2 support staff, handling all technical issues and escalations.
+        • Improved technical support processes, slashing response times by 20% and boosting customer satisfaction by 15%.<div> <br /></div>
+        • Managed logistical coordination for projects, ensuring timely material delivery and minimizing operational downtime.<div> <br /></div>
+        • Performed hardware inventory management, ensuring accurate tracking and efficient allocation.<div> <br /></div>
+        • Troubleshot software compatibility issues, enhancing end-user experiences.<div> <br /></div>
+        • Served as primary escalation point for Tier-1 and Tier-2 support, resolving complex technical problems.<div> <br /></div>
       </div>
     ),
   },
