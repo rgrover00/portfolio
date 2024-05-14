@@ -37,7 +37,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: 'Ronnie Grover - Tech Enthusiast and Dad Developer',
-  description: "look for what you cant see",
+  description: 'look for what you cant see',
 };
 
 /**
@@ -65,12 +65,12 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        an <strong className="text-stone-100">Tech Enthusiast</strong>, actively seeking 
-        <strong className="text-stone-100">  new projects and work opportunities</strong>
-      </p> 
+        an <strong className="text-stone-100">Tech Enthusiast</strong>, actively seeking
+        <strong className="text-stone-100"> new projects and work opportunities</strong>
+      </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-
-      If you have a <strong className="text-stone-100">project or role</strong> in mind, I would  <strong className="text-stone-100"> love</strong>{' '} to discuss it with you
+        If you have a <strong className="text-stone-100">project or role</strong> in mind, I would{' '}
+        <strong className="text-stone-100"> love</strong> to discuss it with you
       </p>
     </>
   ),
@@ -95,14 +95,22 @@ export const heroData: Hero = {
 export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `I bring the power of cloud expertise and over a decade of systems administration experience to small and medium sized businesses. Now as a Stay-at-Home Dad Developer, I bring a dynamic approach to solving IT business challenges with web design, development and automation. I help companies optimize their online presence, streamline SaaS applications, and bridge the gap between IT and business goals.`,
- 
+
   aboutItems: [
     {label: 'Location', text: 'TX | SC', Icon: MapIcon},
     {label: 'Age', text: '36', Icon: CalendarIcon},
     {label: 'Employment', text: 'Open to work opportunities', Icon: BuildingOffice2Icon},
     {label: 'Interests', text: 'Family, Web Development, Working Out', Icon: SparklesIcon},
-    {label: 'Study', text: 'CIT Networking, Google Workspace Admin, AWS Certified Cloud Practitioner', Icon: AcademicCapIcon},
-    {label: 'Nationality', text: '50% Indonesian / 20% Italian / 20% French & German / 10% British & Irish', Icon: FlagIcon},
+    {
+      label: 'Study',
+      text: 'CIT Networking, Google Workspace Admin, AWS Certified Cloud Practitioner',
+      Icon: AcademicCapIcon,
+    },
+    {
+      label: 'Nationality',
+      text: '50% Indonesian / 20% Italian / 20% French & German / 10% British & Irish',
+      Icon: FlagIcon,
+    },
   ],
 };
 
@@ -222,24 +230,44 @@ export const portfolioItems: PortfolioItem[] = [
 export const education: TimelineItem[] = [
   {
     date: 'September 2023',
-    location: 'Google Cloud Platform (GCP)' ,
-    title: 'Professional Google Workspace Administrator', 
-    badge: 'GCP',  // Insert the image here
-    content: <p>Transforms business objectives into tangible Google Workspace configurations, policies, and security practices as they relate to users, content, and integrations. Through their understanding of their organization's infrastructure, Google Workspace Administrators let people work together, communicate, and access data in a secure and efficient manner.</p>,
+    location: 'Google Cloud Platform (GCP)',
+    title: 'Professional Google Workspace Administrator',
+    badge: 'GCP', // Insert the image here
+    content: (
+      <p>
+        Transforms business objectives into tangible Google Workspace configurations, policies, and security practices
+        as they relate to users, content, and integrations. Through their understanding of their organization's
+        infrastructure, Google Workspace Administrators let people work together, communicate, and access data in a
+        secure and efficient manner.
+      </p>
+    ),
   },
   {
     date: 'September 2023',
     location: 'Amazon Web Services (AWS)',
-    title: 'AWS Certified Cloud Practitioner', 
+    title: 'AWS Certified Cloud Practitioner',
     badge: 'AWS',
-    content: <p>Technical professional who manages an organization's cloud computing architecture. They design, deploy, and maintain cloud-based solutions, and work with other IT professionals to ensure the cloud environment is secure, available, and operates as expected.</p>,
+    content: (
+      <p>
+        Technical professional who manages an organization's cloud computing architecture. They design, deploy, and
+        maintain cloud-based solutions, and work with other IT professionals to ensure the cloud environment is secure,
+        available, and operates as expected.
+      </p>
+    ),
   },
   {
     date: 'May 2013',
     location: 'Suny Orange (Middletown, NY)',
     title: 'Computer Information Technology - Networking',
     badge: '',
-    content: <p>Understanding network components (routers, switches, firewalls), different network types (LAN, WAN, wireless), and network protocols (TCP/IP). How to protect networks from threats, implement security measures, and perform vulnerability assessments. Configuration, troubleshooting, and maintaining networks. Involving hardware and software setup, performance optimization, and user support.</p>,
+    content: (
+      <p>
+        Understanding network components (routers, switches, firewalls), different network types (LAN, WAN, wireless),
+        and network protocols (TCP/IP). How to protect networks from threats, implement security measures, and perform
+        vulnerability assessments. Configuration, troubleshooting, and maintaining networks. Involving hardware and
+        software setup, performance optimization, and user support.
+      </p>
+    ),
   },
 ];
 
@@ -250,10 +278,26 @@ export const experience: TimelineItemCompany[] = [
     title: 'IT Systems Administrator',
     content: (
       <div>
-        • Led the creation and implementation of the IT department for a rapidly growing cloud solution provider. Maintained operational excellence across infrastructure, systems, security, and communications.<div> <br /></div>
-        • Designed and executed automation workflows using Okta, Jamf, Active Directory, Google Workspace, and other tools. Optimized efficiency and accuracy throughout employee lifecycle processes.<div> <br /></div>
-        • Collaborated with cross-functional teams to diagnose, troubleshoot, and resolve complex technical issues related to systems and integrations.<div> <br /></div>
-        • Proactively partnered with IT leadership and security team to enforce security protocols, maintain compliance, and safeguard data integrity.
+        • Led the creation and implementation of the IT department for a rapidly growing cloud solution provider.
+        Maintained operational excellence across infrastructure, systems, security, and communications.
+        <div>
+          {' '}
+          <br />
+        </div>
+        • Designed and executed automation workflows using Okta, Jamf, Active Directory, Google Workspace, and other
+        tools. Optimized efficiency and accuracy throughout employee lifecycle processes.
+        <div>
+          {' '}
+          <br />
+        </div>
+        • Collaborated with cross-functional teams to diagnose, troubleshoot, and resolve complex technical issues
+        related to systems and integrations.
+        <div>
+          {' '}
+          <br />
+        </div>
+        • Proactively partnered with IT leadership and security team to enforce security protocols, maintain compliance,
+        and safeguard data integrity.
       </div>
     ),
   },
@@ -263,9 +307,24 @@ export const experience: TimelineItemCompany[] = [
     title: 'Network Engineer',
     content: (
       <div>
-        • Maintained mission-critical network infrastructure for government entities, ensuring uninterrupted communication and operational efficiency.<div> <br /></div>
-        • Configured and deployed network devices (routers, switches, firewalls, load balancers) to optimize performance and reliability.<div> <br /></div>
-        • Analyzed business needs and successfully implemented tailored network solutions in collaboration with diverse teams.<div> <br /></div>
+        • Maintained mission-critical network infrastructure for government entities, ensuring uninterrupted
+        communication and operational efficiency.
+        <div>
+          {' '}
+          <br />
+        </div>
+        • Configured and deployed network devices (routers, switches, firewalls, load balancers) to optimize performance
+        and reliability.
+        <div>
+          {' '}
+          <br />
+        </div>
+        • Analyzed business needs and successfully implemented tailored network solutions in collaboration with diverse
+        teams.
+        <div>
+          {' '}
+          <br />
+        </div>
         • Performed network capacity planning, recommending and executing upgrades to support evolving business demands.
       </div>
     ),
@@ -276,11 +335,33 @@ export const experience: TimelineItemCompany[] = [
     title: 'Commercial Tech Ops Support',
     content: (
       <div>
-        • Improved technical support processes, slashing response times by 20% and boosting customer satisfaction by 15%.<div> <br /></div>
-        • Managed logistical coordination for projects, ensuring timely material delivery and minimizing operational downtime.<div> <br /></div>
-        • Performed hardware inventory management, ensuring accurate tracking and efficient allocation.<div> <br /></div>
-        • Troubleshot software compatibility issues, enhancing end-user experiences.<div> <br /></div>
-        • Served as primary escalation point for Tier-1 and Tier-2 support, resolving complex technical problems.<div> <br /></div>
+        • Improved technical support processes, slashing response times by 20% and boosting customer satisfaction by
+        15%.
+        <div>
+          {' '}
+          <br />
+        </div>
+        • Managed logistical coordination for projects, ensuring timely material delivery and minimizing operational
+        downtime.
+        <div>
+          {' '}
+          <br />
+        </div>
+        • Performed hardware inventory management, ensuring accurate tracking and efficient allocation.
+        <div>
+          {' '}
+          <br />
+        </div>
+        • Troubleshot software compatibility issues, enhancing end-user experiences.
+        <div>
+          {' '}
+          <br />
+        </div>
+        • Served as primary escalation point for Tier-1 and Tier-2 support, resolving complex technical problems.
+        <div>
+          {' '}
+          <br />
+        </div>
       </div>
     ),
   },
@@ -306,12 +387,13 @@ export const testimonial: TestimonialSection = {
 };
 
 /**
- * Contact section 
+ * Contact section
  */
 
 export const contact: ContactSection = {
   headerText: 'Send a message or schedule a meeting',
-  description: 'As stay-at-home dad developer I have a deep understanding of the challenges faced by small businesses, entrepreneurs, and individuals, making everything more relatable and better suited to meeting your specific needs.',
+  description:
+    'As stay-at-home dad developer I have a deep understanding of the challenges faced by small businesses, entrepreneurs, and individuals, making everything more relatable and better suited to meeting your specific needs.',
   items: [
     {
       type: ContactType.Calendar,
