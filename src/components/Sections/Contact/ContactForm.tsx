@@ -17,13 +17,12 @@ const ContactForm: FC = memo(() => {
   );
 
   const [data, setData] = useState<FormData>(defaultData);
+  const [submissionStatus, setSubmissionStatus] = useState<string | null>(null);
 
   const onChange = useCallback(
     <T extends HTMLInputElement | HTMLTextAreaElement>(event: React.ChangeEvent<T>): void => {
       const {name, value} = event.target;
-
       const fieldData: Partial<FormData> = {[name]: value};
-
       setData({...data, ...fieldData});
     },
     [data],
@@ -33,27 +32,30 @@ const ContactForm: FC = memo(() => {
     async (event: React.FormEvent<HTMLFormElement>) => {
       event.preventDefault();
 
-    // Send a POST request to the server-side endpoint
-    const response = await fetch('/api/send-email', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(data),
-    });
+      try {
+        const response = await fetch('/api/send-email', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(data),
+        });
 
-    if (!response.ok) {
-      console.error('Failed to send email');
-      return;
-    }
+        if (!response.ok) {
+          throw new Error('Failed to send email');
+        }
 
-    console.log('Email sent successfully');
-  },
-  [data],
-);
+        setSubmissionStatus('Email sent successfully!');
+        setData(defaultData); // Reset the form
+      } catch (error) {
+        setSubmissionStatus('Failed to send email. Please try again later.');
+      }
+    },
+    [data, defaultData],
+  );
 
   const inputClasses =
-    'bg-neutral-700 border-0 focus:border-0 focus:outline-none focus:ring-1 focus:ring-orange-600 rounded-md placeholder:text-neutral-400 placeholder:text-sm text-neutral-200 text-sm';
+    'bg-neutral-700 border-0 focus:border-0 focus:outline-none focus:ring-1 focus:ring-blue-600 rounded-md placeholder:text-neutral-400 placeholder:text-sm text-neutral-200 text-sm';
 
   return (
     <form className="grid min-h-[320px] grid-cols-1 gap-y-4" method="POST" onSubmit={handleSendMessage}>
@@ -82,6 +84,7 @@ const ContactForm: FC = memo(() => {
         type="submit">
         Send Message
       </button>
+      {submissionStatus && <p className="text-center text-sm text-white mt-4">{submissionStatus}</p>}
     </form>
   );
 });

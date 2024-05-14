@@ -3,15 +3,12 @@ import type {NextApiRequest, NextApiResponse} from 'next';
 
 sgMail.setApiKey(process.env.SENDGRID_API_KEY || '');
 
-export default async function handler(
-  req: NextApiRequest,
-  res: NextApiResponse
-) {
+export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   const {name, email, message} = req.body;
 
   const msg = {
-    to: 'rgrover00@gmail.com', 
-    from: 'support@solidxit.com', 
+    to: 'info@solidxit.com',
+    from: 'support@solidxit.com',
     subject: 'New Contact Form Submission',
     text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
   };
