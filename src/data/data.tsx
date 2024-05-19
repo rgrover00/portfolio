@@ -65,7 +65,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        an <strong className="text-stone-100">Tech Enthusiast</strong>, actively seeking
+        <strong className="text-stone-100">Tech Enthusiast</strong>, actively seeking
         <strong className="text-stone-100"> new projects and work opportunities</strong>
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
