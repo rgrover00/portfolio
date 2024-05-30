@@ -14,10 +14,10 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.png';
-import porfolioImage2 from '../images/portfolio/portfolio-2.png';
-import porfolioImage3 from '../images/portfolio/portfolio-3.png';
-import porfolioImage5 from '../images/portfolio/portfolio-5.png';
+import DreamSolidx from '../images/portfolio/dream-solidx.png';
+import GroverJourney from '../images/portfolio/groverjourney.png';
+import Skylar from '../images/portfolio/skylar.png';
+import Solidx from '../images/portfolio/solidx.png';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -197,25 +197,25 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Solidx',
     description: 'Solidx - IT Consulting| Web Development',
     url: 'https://solidxit.com/',
-    image: porfolioImage5,
+    image: Solidx,
   },
   {
     title: 'Dream Solidx',
     description: 'Dream Demo Solidx Website',
     url: 'https://dream.solidxit.com/',
-    image: porfolioImage1,
+    image: DreamSolidx,
   },
   {
     title: 'Grover 2D Journey',
     description: 'Follow Grover along his 2D journey',
     url: 'https://2d-grover.pages.dev/',
-    image: porfolioImage2,
+    image: GroverJourney,
   },
   {
     title: 'Cookies for Skylar',
     description: 'Website for my amazing niece Skylar',
     url: 'https://sky.solidxit.com/',
-    image: porfolioImage3,
+    image: Skylar,
   },
 ];
 
