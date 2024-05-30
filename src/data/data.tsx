@@ -18,6 +18,7 @@ import porfolioImage1 from '../images/portfolio/portfolio-1.png';
 import porfolioImage2 from '../images/portfolio/portfolio-2.png';
 import porfolioImage3 from '../images/portfolio/portfolio-3.png';
 import porfolioImage4 from '../images/portfolio/portfolio-4.png';
+import porfolioImage5 from '../images/portfolio/portfolio-5.png';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -66,7 +67,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        an <strong className="text-stone-100">Tech Enthusiast</strong>, actively seeking
+        <strong className="text-stone-100">Tech Enthusiast</strong>, actively seeking
         <strong className="text-stone-100"> new projects and work opportunities</strong>
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -194,9 +195,15 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Solidx IT',
-    description: 'Solidx IT and Web Development',
+    title: 'Solidx',
+    description: 'Solidx - IT Consulting| Web Development',
     url: 'https://solidxit.com/',
+    image: porfolioImage5,
+  },
+  {
+    title: 'Dream Solidx',
+    description: 'Dream Demo Solidx Website',
+    url: 'https://dream.solidxit.com/',
     image: porfolioImage1,
   },
   {
@@ -210,12 +217,6 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'Website for my amazing niece Skylar',
     url: 'https://sky.solidxit.com/',
     image: porfolioImage3,
-  },
-  {
-    title: 'Soul Good',
-    description: 'Cultivate equanimity and live with grace',
-    url: 'https://soulgood.pages.dev/',
-    image: porfolioImage4,
   },
 ];
 
