@@ -8,6 +8,7 @@ import {
   MapIcon,
   SparklesIcon,
 } from '@heroicons/react/24/outline';
+import React from 'react';
 
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
@@ -65,7 +66,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        <strong className="text-stone-100">Tech Enthusiast</strong>, actively seeking
+        an <strong className="text-stone-100">Tech Enthusiast</strong>, actively seeking
         <strong className="text-stone-100"> new projects and work opportunities</strong>
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -94,7 +95,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I bring the power of cloud expertise and over a decade of systems administration experience to small and medium sized businesses. Now as a Stay-at-Home Dad Developer, I bring a dynamic approach to solving IT business challenges with web design, development and automation. I help companies optimize their online presence, streamline SaaS applications, and bridge the gap between IT and business goals.`,
+  description: `I bring the power of cloud expertise and over a decade of systems administration experience to small and medium sized businesses. Now as an IT Consultant and Web Developer, I bring a dynamic approach to solving IT business challenges with web design, development and automation. I help companies optimize their online presence, streamline SaaS applications, and bridge the gap between IT and business goals.`,
 
   aboutItems: [
     {label: 'Location', text: 'TX | SC', Icon: MapIcon},
