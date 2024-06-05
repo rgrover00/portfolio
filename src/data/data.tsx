@@ -38,8 +38,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'Ronnie Grover - Tech Enthusiast and Dad Developer',
-  description: 'look for what you cant see',
+  title: 'Ronnie Grover | Portfolio',
+  description: 'Tech Enthusiast and Dad Developer',
 };
 
 /**
@@ -158,16 +158,16 @@ export const skills: SkillGroup[] = [
     name: 'RKG Fitness Development',
     skills: [
       {
-        name: 'Luck',
-        level: 6,
+        name: 'Bench',
+        level: 5,
       },
       {
-        name: 'Believe',
-        level: 8,
+        name: 'Squat',
+        level: 4,
       },
       {
-        name: 'Evolve',
-        level: 7,
+        name: 'Deadlift',
+        level: 3,
       },
     ],
   },
@@ -176,15 +176,15 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Luck',
-        level: 4,
+        level: 5,
       },
       {
         name: 'Believe',
-        level: 1,
+        level: 3,
       },
       {
         name: 'Evolve',
-        level: 3,
+        level: 2,
       },
     ],
   },
@@ -304,8 +304,7 @@ export const experience: TimelineItemCompany[] = [
           {' '}
           <br />
         </div>
-        • Proactively partnered with IT leadership and security team to enforce security protocols, maintain compliance,
-        and safeguard data integrity.
+        • Administered and maintained a fleet of Microsoft Windows servers, achieving 99.9% uptime over three years by applying regular security patches and updates.
       </div>
     ),
   },
