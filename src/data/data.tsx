@@ -16,6 +16,7 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
 import DreamSolidx from '../images/portfolio/dream-solidx.png';
 import GroverJourney from '../images/portfolio/groverjourney.png';
+import Margo from '../images/portfolio/margo.png';
 import Skylar from '../images/portfolio/skylar.png';
 import Solidx from '../images/portfolio/solidx.png';
 import profilepic from '../images/profilepic.jpg';
@@ -77,7 +78,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: 'https://storage.googleapis.com/www.ronniegrover.com/rg-resume.pdf',
+      href: '/ronniegrover-resume-pic.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -95,7 +96,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I bring the power of cloud expertise and over a decade of systems administration experience to small and medium sized businesses. Now as an IT Consultant and Web Developer, I bring a dynamic approach to solving IT business challenges with web design, development and automation. I help companies optimize their online presence, streamline SaaS applications, and bridge the gap between IT and business goals.`,
+  description: `Hey there! I'm a Systems Administrator who loves making tech work for people, not against them. With over a decade of experience in the telecom and cloud world, I've honed my skills in streamlining systems, ensuring those SaaS apps you rely on are running smoothly, and keeping everything safe and secure.  I'm also your go-to person for translating tech-speak into plain English, building bridges between teams, and finding creative solutions. Oh, and did I mention I'm a bit of a web dev enthusiast? I've got a soft spot for TypeScript, Next.js, React, and Node.js – always looking for new ways to build cool, efficient apps.`,
 
   aboutItems: [
     {label: 'Location', text: 'TX | SC', Icon: MapIcon},
@@ -154,15 +155,15 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Dad Developer',
+    name: 'RKG Fitness Development',
     skills: [
       {
         name: 'Luck',
-        level: 2,
+        level: 6,
       },
       {
         name: 'Believe',
-        level: 3,
+        level: 8,
       },
       {
         name: 'Evolve',
@@ -214,8 +215,14 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Cookies for Skylar',
     description: 'Website for my amazing niece Skylar',
-    url: 'https://sky.solidxit.com/',
+    url: 'https://cookiesforsky.solidxit.com/',
     image: Skylar,
+  },
+  {
+    title: 'Softball with Margo',
+    description: 'Coaching with Margo',
+    url: 'https://softballwithmargo.solidxit.com/',
+    image: Margo,
   },
 ];
 

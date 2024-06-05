@@ -22,7 +22,7 @@ const Hero: FC = memo(() => {
         />
         <div className="z-10  max-w-screen-lg px-4 lg:px-0">
           <div className="flex flex-col items-center gap-y-6 rounded-xl bg-gray-800/40 p-6 text-center shadow-lg backdrop-blur-sm">
-            <h1 className="text-4xl font-bold text-white sm:text-5xl lg:text-7xl">{name}</h1>
+            <h1 className="text-4xl font-bold bg-gradient-to-r from-[#55bbc5] via-[#5bc37c] to-[#55bbc5] bg-clip-text text-transparent sm:text-5xl lg:text-7xl">{name}</h1>
             {description}
             <div className="flex gap-x-4 text-neutral-100">
               <Socials />
@@ -31,7 +31,7 @@ const Hero: FC = memo(() => {
               {actions.map(({href, text, primary, Icon}) => (
                 <a
                   className={classNames(
-                    'flex gap-x-2 rounded-full border-2 bg-none px-4 py-2 text-sm font-medium text-white ring-offset-blue-600/80 hover:bg-blue-600/80 focus:outline-none focus:ring-2 focus:ring-offset-2 sm:text-base',
+                    'flex gap-x-2 rounded-full border-2 bg-none px-4 py-2 text-sm font-medium text-white ring-offset-sky-600/80 hover:bg-green-200/20 focus:outline-none focus:ring-2 focus:ring-offset-2 sm:text-base',
                     primary ? 'border-blue-500 ring-blue-500' : 'border-white ring-white',
                   )}
                   href={href}
