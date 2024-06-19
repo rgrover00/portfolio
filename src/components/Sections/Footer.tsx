@@ -1,4 +1,4 @@
-import {BoltIcon, ChevronUpIcon} from '@heroicons/react/24/solid';
+import {ChevronUpIcon} from '@heroicons/react/24/solid';
 import {FC, memo} from 'react';
 
 import {SectionId} from '../../data/data';
@@ -18,16 +18,7 @@ const Footer: FC = memo(() => (
     <div className="flex flex-col items-center gap-y-6">
       <div className="flex gap-x-4 text-neutral-500">
         <Socials />
-      </div>
-      <a
-        className="-m-1 flex items-center gap-x-1 rounded-md p-2 ring-yellow focus:outline-none focus:ring-2"
-        href="https://reactresume.com">
-        <BoltIcon className="h3- w-3 text-yellow" />
-        <span>
-          Provided by <span className="italic">React</span>
-          <span className="italic"> Resume</span>
-        </span>
-      </a>
+    </div>
       <span className="text-sm text-neutral-700">© Copyright {currentYear} Ronnie Grover</span>
     </div>
   </div>

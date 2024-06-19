@@ -38,7 +38,7 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'Ronnie Grover | Portfolio',
+  title: 'Ronnie Grover ',
   description: 'Tech Enthusiast and Dad Developer',
 };
 
