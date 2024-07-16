@@ -286,26 +286,29 @@ export const experience: TimelineItemCompany[] = [
     title: 'IT Systems Administrator',
     content: (
       <div>
-        • Led the creation and implementation of the IT department for a rapidly growing cloud solution provider.
-        Maintained operational excellence across infrastructure, systems, security, and communications.
+        • Spearheaded the successful integration of acquired companies into the existing Google Workspace and Okta environment, ensuring data integrity, minimal downtime, and a seamless user experience for all employees.
         <div>
           {' '}
           <br />
         </div>
-        • Designed and executed automation workflows using Okta, Jamf, Active Directory, Google Workspace, and other
-        tools. Optimized efficiency and accuracy throughout employee lifecycle processes.
+        •Leveraged deep Google Workspace product knowledge to troubleshoot complex technical issues, including account management, policy configurations, and integration challenges with Okta and other SaaS applications.
         <div>
           {' '}
           <br />
         </div>
-        • Collaborated with cross-functional teams to diagnose, troubleshoot, and resolve complex technical issues
-        related to systems and integrations.
+        • Integrated various SaaS cloud applications into Okta with Google SSO, simplifying user access and authentication while maintaining robust security measures.
         <div>
           {' '}
           <br />
         </div>
-        • Administered and maintained a fleet of Microsoft Windows servers, achieving 99.9% uptime over three years by applying regular security patches and updates.
+        • Collaborated with HR to design and implement a streamlined onboarding and offboarding process within Google Workspace, automating user account provisioning, access permissions, and resource allocation.
+        <div>
+          {' '}
+          <br />
+        </div>
+        • Acted as the primary Google Workspace administrator, managing user accounts, permissions, and security settings while maintaining 99.9% uptime for critical services.
       </div>
+      
     ),
   },
   {
