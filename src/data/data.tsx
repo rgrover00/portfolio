@@ -291,7 +291,7 @@ export const experience: TimelineItemCompany[] = [
           {' '}
           <br />
         </div>
-        •Leveraged deep Google Workspace product knowledge to troubleshoot complex technical issues, including account management, policy configurations, and integration challenges with Okta and other SaaS applications.
+        • Leveraged deep Google Workspace product knowledge to troubleshoot complex technical issues, including account management, policy configurations, and integration challenges with Okta and other SaaS applications.
         <div>
           {' '}
           <br />
