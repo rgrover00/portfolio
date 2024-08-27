@@ -91,6 +91,7 @@ const Testimonials: FC = memo(() => {
                 );
               })}
             </div>
+            
             <div className="flex gap-x-4">
               {[...Array(testimonials.length)].map((_, index) => {
                 const isActive = index === activeIndex;

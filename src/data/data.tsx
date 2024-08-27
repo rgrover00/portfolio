@@ -19,6 +19,7 @@ import GroverJourney from '../images/portfolio/groverjourney.png';
 import Margo from '../images/portfolio/margo.png';
 import Skylar from '../images/portfolio/skylar.png';
 import Solidx from '../images/portfolio/solidx.png';
+import SoulGood from '../images/portfolio/soulgood.png';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -196,13 +197,13 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Solidx',
-    description: 'Solidx - IT Consulting| Web Development',
+    description: 'Solidx - Web Development',
     url: 'https://solidxit.com/',
     image: Solidx,
   },
   {
-    title: 'Dream Solidx',
-    description: 'Dream Demo Solidx Website',
+    title: 'Solidx',
+    description: 'Demo Solidx Website',
     url: 'https://dream.solidxit.com/',
     image: DreamSolidx,
   },
@@ -213,9 +214,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: GroverJourney,
   },
   {
-    title: 'Cookies for Skylar',
-    description: 'Website for my amazing niece Skylar',
-    url: 'https://cookiesforsky.solidxit.com/',
+    title: 'Skylar Rose Foundation',
+    description: 'Website for the Skylar Rose Foundation',
+    url: 'https://skylar.solidxit.com/',
     image: Skylar,
   },
   {
@@ -223,6 +224,12 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'Coaching with Margo',
     url: 'https://softballwithmargo.solidxit.com/',
     image: Margo,
+  },
+  {
+    title: 'Soul Good',
+    description: 'Demo Soul Good Website',
+    url: 'https://soulgood.pages.dev/',
+    image: SoulGood,
   },
 ];
 
