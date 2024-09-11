@@ -1,4 +1,5 @@
-import {FC, memo, useCallback, useMemo, useState} from 'react';
+import type {FC} from 'react';
+import {memo, useCallback, useMemo, useState} from 'react';
 
 interface FormData {
   name: string;

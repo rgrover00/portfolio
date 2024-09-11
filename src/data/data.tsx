@@ -35,6 +35,7 @@ import {
   TimelineItem,
   TimelineItemCompany,
 } from './dataDef';
+
 /**
  * Page meta data
  */
@@ -214,10 +215,10 @@ export const portfolioItems: PortfolioItem[] = [
     image: GroverJourney,
   },
   {
-    title: 'Skylar Rose Foundation',
-    description: 'Website for the Skylar Rose Foundation',
-    url: 'https://skylar.solidxit.com/',
-    image: Skylar,
+    title: 'Soul Good',
+    description: 'Demo Soul Good Website',
+    url: 'https://soulgood.pages.dev/',
+    image: SoulGood,
   },
   {
     title: 'Softball with Margo',
@@ -226,10 +227,10 @@ export const portfolioItems: PortfolioItem[] = [
     image: Margo,
   },
   {
-    title: 'Soul Good',
-    description: 'Demo Soul Good Website',
-    url: 'https://soulgood.pages.dev/',
-    image: SoulGood,
+    title: 'Skylar Rose Foundation',
+    description: 'Website for the Skylar Rose Foundation',
+    url: 'https://skylar.solidxit.com/',
+    image: Skylar,
   },
 ];
 
@@ -410,7 +411,7 @@ export const testimonial: TestimonialSection = {
 export const contact: ContactSection = {
   headerText: 'Send a message or schedule a meeting',
   description:
-    'As stay-at-home dad developer I have a deep understanding of the challenges faced by small businesses, entrepreneurs, and individuals, making everything more relatable and better suited to meeting your specific needs.',
+    'Systems Architect | Web Developer | IT Consultant Tech Enthusiast seeking new projects and opportunities Have a project or role in mind? I would love to discuss it with you',
   items: [
     {
       type: ContactType.Calendar,
