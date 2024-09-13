@@ -1,7 +1,7 @@
 /* eslint-env node */
 
 module.exports = {
-  extends: ['stylelint-config-recommended', 'stylelint-order'],
+  extends: ['stylelint-config-recommended'],
   plugins: ['stylelint-prettier', 'stylelint-order'],
   rules: {
     'no-descending-specificity': null,

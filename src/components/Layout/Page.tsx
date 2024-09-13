@@ -1,10 +1,9 @@
-import {NextPage} from 'next';
+import type {NextPage} from 'next';
 import Head from 'next/head';
 import {useRouter} from 'next/router';
-import {memo, PropsWithChildren} from 'react';
+import {memo, type PropsWithChildren} from 'react';
 
-//
-import {HomepageMeta} from '../../data/dataDef';
+import type {HomepageMeta} from '../../data/dataDef';
 
 const Page: NextPage<PropsWithChildren<HomepageMeta>> = memo(({children, title, description}) => {
   const {asPath: pathname} = useRouter();
@@ -31,6 +30,8 @@ const Page: NextPage<PropsWithChildren<HomepageMeta>> = memo(({children, title, 
         {/* Twitter: https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup */}
         <meta content={title} name="twitter:ronniegrover" />
         <meta content={description} name="twitter:lookforwhatyoucantsee" />
+
+        <link as="style" href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="preload" />
       </Head>
       {children}
     </>

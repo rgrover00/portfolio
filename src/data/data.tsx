@@ -68,13 +68,10 @@ export const heroData: Hero = {
   name: `Hi, I'm Ronnie`,
   description: (
     <>
+
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        <strong className="text-stone-100">Tech Enthusiast</strong>, actively seeking
-        <strong className="text-stone-100"> new projects and work opportunities</strong>
-      </p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        If you have a <strong className="text-stone-100">project or role</strong> in mind, I would{' '}
-        <strong className="text-stone-100"> love</strong> to discuss it with you
+        If you have a <span className="font-semibold text-stone-100">role or project</span> in mind, I would{' '}
+        <span className="font-semibold text-stone-100"> love</span> to discuss it with you
       </p>
     </>
   ),
@@ -98,7 +95,39 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Hey there! I'm a Systems Administrator who loves making tech work for people, not against them. With over a decade of experience in the telecom and cloud world, I've honed my skills in streamlining systems, ensuring those SaaS apps you rely on are running smoothly, and keeping everything safe and secure.  I'm also your go-to person for translating tech-speak into plain English, building bridges between teams, and finding creative solutions. Oh, and did I mention I'm a bit of a web dev enthusiast? I've got a soft spot for TypeScript, Next.js, React, and Node.js – always looking for new ways to build cool, efficient apps.`,
+  description: (
+    <>
+        Hey there! I’m Ronnie, a tech enthusiast with over a decade of experience in the telecom and cloud industries. I’m all about making technology work for people, not against them. I specialize in streamlining complex systems, optimizing SaaS applications, and keeping everything secure and running smoothly.
+        <br />
+        <br />
+        <span className="font-bold">My mission is simple:</span> to turn complicated tech into user-friendly solutions that empower teams to be more efficient and productive. Whether it's integrating new platforms, automating workflows, or translating tech-speak into plain English, I love finding creative ways to bridge the gap between technology and people.
+        <br />
+          <br />
+            <span className="font-bold">Career Highlights:</span>
+          <br />
+             I’m particularly proud of my work in managing and optimizing Google Workspace environments. As a Professional Google Workspace Administrator, I have successfully led several large-scale migrations, streamlined collaboration tools, and implemented robust security measures that protected sensitive data while enhancing productivity across multiple organizations. One of my standout achievements was leading the integration of Google Workspace with legacy systems in a complex hybrid environment, reducing operational costs by 30% and significantly improving cross-departmental communication.
+          <br />
+          <br />
+            <span className="font-bold">Custom Scripts and Automated Workflows:</span>
+          <br />
+            I’ve also created custom scripts and automated workflows within Google Workspace that have reduced manual tasks by up to 60%, saving valuable time for IT teams and end users. These efforts have contributed to a smoother, more efficient work environment and demonstrated my ability to drive digital transformation initiatives.
+          <br />
+          <br />
+            <span className="font-bold">My Approach to Technology:</span>
+          <br />
+            I believe that technology should evolve with the needs of the people who use it. I see my role not just as a tech expert but as a bridge between IT and the rest of the organization. I’m known for my ability to translate complex technical concepts into plain English, ensuring that everyone is aligned and working towards a common goal. I believe that luck comes from hard work and a willingness to evolve — both personally and professionally — to meet the ever-changing demands of the tech landscape.
+          <br />
+          <br />
+            <span className="font-bold">Beyond IT: My Personal Passions:</span>
+          <br />
+            When I’m not optimizing cloud environments or exploring the latest web development trends, you’ll find me in my garage gym, working out as a form of therapy and keeping myself grounded. I’m also passionate about self-hosting and building web apps, constantly experimenting with new frameworks like TypeScript, Next.js, React, and Node.js. I love finding new, creative ways to build efficient, user-friendly applications that solve real-world problems.
+          <br />
+          <br />
+            <span className="font-bold">Let’s Connect!</span>
+          <br />
+            I’m always open to new opportunities and collaborations. Whether you’re looking for a tech-savvy partner to help drive your digital transformation, need a creative solution for your IT challenges, or just want to chat about web development or fitness, feel free to reach out!
+    </>
+  ),
 
   aboutItems: [
     {label: 'Location', text: 'TX | SC', Icon: MapIcon},
