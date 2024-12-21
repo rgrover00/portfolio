@@ -100,19 +100,6 @@ export const aboutData: About = {
         Hey there! I’m Ronnie, a tech enthusiast with over a decade of experience in the telecom and cloud industries. I’m all about making technology work for people, not against them. I specialize in streamlining complex systems, optimizing SaaS applications, and keeping everything secure and running smoothly.
         <br />
         <br />
-        <span className="font-bold">My mission is simple:</span> to turn complicated tech into user-friendly solutions that empower teams to be more efficient and productive. Whether it's integrating new platforms, automating workflows, or translating tech-speak into plain English, I love finding creative ways to bridge the gap between technology and people.
-        <br />
-          <br />
-            <span className="font-bold">Career Highlights:</span>
-          <br />
-             I’m particularly proud of my work in managing and optimizing Google Workspace environments. As a Professional Google Workspace Administrator, I have successfully led several large-scale migrations, streamlined collaboration tools, and implemented robust security measures that protected sensitive data while enhancing productivity across multiple organizations. One of my standout achievements was leading the integration of Google Workspace with legacy systems in a complex hybrid environment, reducing operational costs by 30% and significantly improving cross-departmental communication.
-          <br />
-          <br />
-            <span className="font-bold">Custom Scripts and Automated Workflows:</span>
-          <br />
-            I’ve also created custom scripts and automated workflows within Google Workspace that have reduced manual tasks by up to 60%, saving valuable time for IT teams and end users. These efforts have contributed to a smoother, more efficient work environment and demonstrated my ability to drive digital transformation initiatives.
-          <br />
-          <br />
             <span className="font-bold">My Approach to Technology:</span>
           <br />
             I believe that technology should evolve with the needs of the people who use it. I see my role not just as a tech expert but as a bridge between IT and the rest of the organization. I’m known for my ability to translate complex technical concepts into plain English, ensuring that everyone is aligned and working towards a common goal. I believe that luck comes from hard work and a willingness to evolve — both personally and professionally — to meet the ever-changing demands of the tech landscape.
@@ -130,8 +117,8 @@ export const aboutData: About = {
   ),
 
   aboutItems: [
-    {label: 'Location', text: 'TX | SC', Icon: MapIcon},
-    {label: 'Age', text: '36', Icon: CalendarIcon},
+    {label: 'Location', text: 'South Carolina', Icon: MapIcon},
+    {label: 'Age', text: '37', Icon: CalendarIcon},
     {label: 'Employment', text: 'Open to work opportunities', Icon: BuildingOffice2Icon},
     {label: 'Interests', text: 'Family, Web Development, Working Out', Icon: SparklesIcon},
     {
