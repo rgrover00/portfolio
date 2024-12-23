@@ -70,14 +70,16 @@ export const heroData: Hero = {
     <>
 
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        If you have a <span className="font-semibold text-stone-100">role or project</span> in mind, I would{' '}
-        <span className="font-semibold text-stone-100"> love</span> to discuss it with you
+        <a className="hover:text-stone-300" 
+           href="https://www.credly.com/users/ronniegrover" 
+           rel="noopener noreferrer" 
+           target="_blank">Bridging Technology and Life</a>
       </p>
     </>
   ),
   actions: [
     {
-      href: '/ronniegrover-resume-pic.pdf',
+      href: '/#resume',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -118,7 +120,7 @@ export const aboutData: About = {
             If you're looking for a tech-savvy problem-solver who's passionate about IT (and maybe has a dad joke or two), feel free to reach out! 
           <br />
           <br />
-            Check out my <a href="https://www.credly.com/users/ronniegrover" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">certifications on Credly</a>
+            Check out my <a className="text-blue-400 hover:text-blue-300" href="https://www.credly.com/users/ronniegrover" rel="noopener noreferrer" target="_blank">certifications on Credly</a>
     </>
   ),
 
@@ -270,7 +272,7 @@ export const education: TimelineItem[] = [
     date: 'September 2023',
     location: 'Google Cloud Platform (GCP)',
     title: <a href="https://www.credly.com/badges/9326752a-fa71-4847-b389-6f6ba2c2d55a">Professional Google Workspace Administrator</a>,
-    badge: 'GCP', // Insert the image here
+    badge: 'GCP',
     content: (
       <p>
         Transforms business objectives into tangible Google Workspace configurations, policies, and security practices
@@ -405,6 +407,7 @@ export const experience: TimelineItemCompany[] = [
       </div>
     ),
   },
+  
 ];
 
 /**
@@ -433,7 +436,7 @@ export const testimonial: TestimonialSection = {
 export const contact: ContactSection = {
   headerText: 'Send a message or schedule a meeting',
   description:
-    'Systems Administrator | Web Developer | Tech Enthusiast',
+    'Web Developer | Tech Enthusiast',
   items: [
     {
       type: ContactType.Calendar,
@@ -442,7 +445,7 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Location,
-      text: 'SC',
+      text: 'South Carolina',
       href: 'https://www.google.ca/maps/place/Mid+Del+Taco+Inc/@35.4494386,-97.4409019,19.5z/data=!4m6!3m5!1s0x87b21620e38f1a41:0xf52603da124d63e6!8m2!3d35.4494486!4d-97.4404811!16s%2Fg%2F1tc_95b_?entry=ttu',
     },
     {

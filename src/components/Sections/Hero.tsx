@@ -15,14 +15,17 @@ const Hero: FC = memo(() => {
       <div className="relative flex h-screen w-full items-center justify-center">
         <Image
           alt={`${name}-image`}
-          className="absolute z-0 h-full w-full object-cover"
+          className={classNames(
+            'absolute z-0 h-full w-full object-cover bg-cover bg-center',
+            {'bg-neutral-700': !imageSrc}
+          )}
           placeholder="blur"
           priority
           src={imageSrc}
         />
         <div className="z-10  max-w-screen-lg px-4 lg:px-0">
           <div className="flex flex-col items-center gap-y-6 rounded-xl bg-gray-800/40 p-6 text-center shadow-lg backdrop-blur-lg">
-            <h1 className="text-4xl font-semibold bg-gradient-to-r from-[#55bbc5] via-[#5bc37c] to-[#55bbc5] bg-clip-text text-transparent sm:text-5xl lg:text-7xl">{name}</h1>
+            <h1 className="text-4xl font-semibold bg-gradient-to-r from-[#6fd5d5] via-[#89aae4] to-[#6fd5d5] bg-clip-text text-transparent sm:text-5xl lg:text-7xl">{name}</h1>
             {description}
             <div className="flex gap-x-4 text-neutral-100">
               <Socials />

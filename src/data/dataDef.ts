@@ -89,9 +89,9 @@ export interface PortfolioItem {
 export interface TimelineItem {
   date: string;
   location: string;
-  title: string;
-  badge: string;
-  content: JSX.Element;
+  title: string | React.ReactNode;
+  badge?: string;
+  content: React.ReactNode;
 }
 /**
  * Timeline section
