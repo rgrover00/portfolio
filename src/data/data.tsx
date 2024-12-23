@@ -97,29 +97,35 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: (
     <>
-        Hey there! I’m Ronnie, a tech enthusiast with over a decade of experience in the telecom and cloud industries. I’m all about making technology work for people, not against them. I specialize in streamlining complex systems, optimizing SaaS applications, and keeping everything secure and running smoothly.
+        Hey there! I’m Ronnie — a tech enthusiast, network engineer, and proud dad of three. With over a decade of experience in the telecom and cloud industries, I specialize in streamlining complex systems, optimizing SaaS applications, and keeping everything secure and running smoothly. Currently, I work in the BCSD as a member of the NOC team, ensuring the network is secure and systems stay connected and efficient.
         <br />
         <br />
             <span className="font-bold">My Approach to Technology:</span>
           <br />
-            I believe that technology should evolve with the needs of the people who use it. I see my role not just as a tech expert but as a bridge between IT and the rest of the organization. I’m known for my ability to translate complex technical concepts into plain English, ensuring that everyone is aligned and working towards a common goal. I believe that luck comes from hard work and a willingness to evolve — both personally and professionally — to meet the ever-changing demands of the tech landscape.
+        I believe technology should evolve with its users. My goal is to bridge the gap between IT and everyone else, translating complex concepts into plain English so teams can work better together. I’m passionate about solving problems with creativity, hard work, and adaptability, both on the job and in my personal projects.
           <br />
           <br />
             <span className="font-bold">Beyond IT: My Personal Passions:</span>
           <br />
-            When I’m not optimizing cloud environments or exploring the latest web development trends, you’ll find me in my garage gym, working out as a form of therapy and keeping myself grounded. I’m also passionate about self-hosting and building web apps, constantly experimenting with new frameworks like TypeScript, Next.js, React, and Node.js. I love finding new, creative ways to build efficient, user-friendly applications that solve real-world problems.
+          Outside of work, I’m a family guy through and through. My wife and I have been married for 10 years, and we’re raising three amazing kids: Ayla (4), Bryson (2), and our newest addition, baby Everly. Life is a bit chaotic, but it’s also full of joy (and a few dad jokes).
+          <br />
+          <br />
+          When I’m not with my family, you’ll find me in my garage gym or tinkering with self-hosted setups and web apps. I love experimenting with frameworks like TypeScript, Next.js, and React to build user-friendly solutions that make life easier.
           <br />
           <br />
             <span className="font-bold">Let’s Connect!</span>
           <br />
-            I’m always open to new opportunities and collaborations. Whether you’re looking for a tech-savvy partner to help drive your digital transformation, need a creative solution for your IT challenges, or just want to chat about web development or fitness, feel free to reach out!
+            If you're looking for a tech-savvy problem-solver who's passionate about IT (and maybe has a dad joke or two), feel free to reach out! 
+          <br />
+          <br />
+            Check out my <a href="https://www.credly.com/users/ronniegrover" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300">certifications on Credly</a>
     </>
   ),
 
   aboutItems: [
     {label: 'Location', text: 'South Carolina', Icon: MapIcon},
     {label: 'Age', text: '37', Icon: CalendarIcon},
-    {label: 'Employment', text: 'Open to work opportunities', Icon: BuildingOffice2Icon},
+    {label: 'Employment', text: 'BCSD', Icon: BuildingOffice2Icon},
     {label: 'Interests', text: 'Family, Web Development, Working Out', Icon: SparklesIcon},
     {
       label: 'Study',
@@ -143,7 +149,7 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'HTML | CSS | Javascript',
-        level: 6,
+        level: 5,
       },
       {
         name: 'Nextjs | Frameworks | Libraries',
@@ -173,7 +179,7 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'RKG Fitness Development',
+    name: 'Fitness Development',
     skills: [
       {
         name: 'Bench',
@@ -194,15 +200,15 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Luck',
-        level: 5,
+        level: 7,
       },
       {
         name: 'Believe',
-        level: 3,
+        level: 6,
       },
       {
         name: 'Evolve',
-        level: 2,
+        level: 5,
       },
     ],
   },
@@ -263,7 +269,7 @@ export const education: TimelineItem[] = [
   {
     date: 'September 2023',
     location: 'Google Cloud Platform (GCP)',
-    title: 'Professional Google Workspace Administrator',
+    title: <a href="https://www.credly.com/badges/9326752a-fa71-4847-b389-6f6ba2c2d55a">Professional Google Workspace Administrator</a>,
     badge: 'GCP', // Insert the image here
     content: (
       <p>
@@ -277,7 +283,7 @@ export const education: TimelineItem[] = [
   {
     date: 'September 2023',
     location: 'Amazon Web Services (AWS)',
-    title: 'AWS Certified Cloud Practitioner',
+    title: <a href="https://www.credly.com/badges/7d158fba-78dd-4017-a737-21b676a6cf62">AWS Certified Cloud Practitioner</a>,
     badge: 'AWS',
     content: (
       <p>
@@ -290,7 +296,7 @@ export const education: TimelineItem[] = [
   {
     date: 'May 2013',
     location: 'Suny Orange (Middletown, NY)',
-    title: 'Computer Information Technology - Networking',
+    title: <a href="https://sunyorange.edu/computerscience/citnet/index.html">Computer Information Technology - Networking</a>,
     badge: '',
     content: (
       <p>
@@ -307,7 +313,7 @@ export const experience: TimelineItemCompany[] = [
   {
     date: 'August 2018 - May 2023',
     company: '11:11 Systems',
-    title: 'IT Systems Administrator',
+    title: 'IT Manager',
     content: (
       <div>
         • Spearheaded the successful integration of acquired companies into the existing Google Workspace and Okta environment, ensuring data integrity, minimal downtime, and a seamless user experience for all employees.
@@ -427,7 +433,7 @@ export const testimonial: TestimonialSection = {
 export const contact: ContactSection = {
   headerText: 'Send a message or schedule a meeting',
   description:
-    'Systems Architect | Web Developer | IT Consultant Tech Enthusiast seeking new projects and opportunities Have a project or role in mind? I would love to discuss it with you',
+    'Systems Administrator | Web Developer | Tech Enthusiast',
   items: [
     {
       type: ContactType.Calendar,
@@ -436,7 +442,7 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Location,
-      text: 'OK | NY | TX | SC',
+      text: 'SC',
       href: 'https://www.google.ca/maps/place/Mid+Del+Taco+Inc/@35.4494386,-97.4409019,19.5z/data=!4m6!3m5!1s0x87b21620e38f1a41:0xf52603da124d63e6!8m2!3d35.4494486!4d-97.4404811!16s%2Fg%2F1tc_95b_?entry=ttu',
     },
     {
