@@ -99,23 +99,23 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: (
     <>
-        Hey there! I’m Ronnie — a tech enthusiast, network engineer, and proud dad of three. With over a decade of experience in the telecom and cloud industries, I specialize in streamlining complex systems, optimizing SaaS applications, and keeping everything secure and running smoothly. Currently, I work in the BCSD as a member of the NOC team, ensuring the network is secure and systems stay connected and efficient.
+        Hey there! I'm Ronnie — a tech enthusiast, network engineer, and proud dad of three. With over a decade of experience in the telecom and cloud industries, I specialize in streamlining complex systems, optimizing SaaS applications, and keeping everything secure and running smoothly. Currently, I work in the BCSD as a member of the NOC team, ensuring the network is secure and systems stay connected and efficient.
         <br />
         <br />
             <span className="font-bold">My Approach to Technology:</span>
           <br />
-        I believe technology should evolve with its users. My goal is to bridge the gap between IT and everyone else, translating complex concepts into plain English so teams can work better together. I’m passionate about solving problems with creativity, hard work, and adaptability, both on the job and in my personal projects.
+        I believe technology should evolve with its users. My goal is to bridge the gap between IT and everyone else, translating complex concepts into plain English so teams can work better together. I'm passionate about solving problems with creativity, hard work, and adaptability, both on the job and in my personal projects.
           <br />
           <br />
             <span className="font-bold">Beyond IT: My Personal Passions:</span>
           <br />
-          Outside of work, I’m a family guy through and through. My wife and I have been married for 10 years, and we’re raising three amazing kids: Ayla (4), Bryson (2), and our newest addition, baby Everly. Life is a bit chaotic, but it’s also full of joy (and a few dad jokes).
+          Outside of work, I'm a family guy through and through. My wife and I have been married for 10 years, and we're raising three amazing kids: Ayla (4), Bryson (2), and our newest addition, baby Everly. Life is a bit chaotic, but it's also full of joy (and a few dad jokes).
           <br />
           <br />
-          When I’m not with my family, you’ll find me in my garage gym or tinkering with self-hosted setups and web apps. I love experimenting with frameworks like TypeScript, Next.js, and React to build user-friendly solutions that make life easier.
+          When I'm not with my family, you'll find me in my garage gym or tinkering with self-hosted setups and web apps. I love experimenting with frameworks like TypeScript, Next.js, and React to build user-friendly solutions that make life easier.
           <br />
           <br />
-            <span className="font-bold">Let’s Connect!</span>
+            <span className="font-bold">Let's Connect!</span>
           <br />
             If you're looking for a tech-savvy problem-solver who's passionate about IT (and maybe has a dad joke or two), feel free to reach out! 
           <br />
@@ -221,6 +221,12 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
+    title: 'Ronnie Grover',
+    description: 'My Personal Website',
+    url: 'https://ronniegrover.com/',
+    image: Solidx,
+  },
+  {
     title: 'Solidx',
     description: 'Solidx - Web Development',
     url: 'https://solidxit.com/',
@@ -312,6 +318,31 @@ export const education: TimelineItem[] = [
 ];
 
 export const experience: TimelineItemCompany[] = [
+  {
+    date: 'October 2024 - Present',
+    company: 'BCSD',
+    title: 'System Support Specialist II - Networking',
+    content: (
+      <div>
+        • I ensure the seamless operation, security, and optimization of critical network infrastructure for BCSD. My role focuses on maintaining connectivity, troubleshooting technical issues, and implementing scalable solutions that align with organizational needs.
+        <div>
+          {' '}
+          <br />
+        </div>
+        • Provide technical support for network-related issues, collaborating with cross-functional teams to enhance IT operations and ensure seamless system performance. Leverage certifications to deliver efficient solutions and uphold industry best practices.
+        <div>
+          {' '}
+          <br />
+        </div>
+        • Network Infrastructure Management: Administer, monitor, and maintain the performance and security of enterprise-level networks, including the deployment and configuration of networking devices.
+        <div>
+          {' '}
+          <br />
+        </div>
+        • Documentation and Training: Develop and maintain detailed documentation for network configurations and processes while mentoring team members to improve overall IT operations.
+      </div>
+    ),
+  },
   {
     date: 'August 2018 - May 2023',
     company: '11:11 Systems',
